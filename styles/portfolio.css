@@ -1,6 +1,7 @@
 :root {
   --primary-color: #d366fd;
   --secondary-color: #eddef8;
+  --heading-font-family: "Rock Salt", cursive;
   --default-font-family: "Comfortaa", cursive;
 }
 
@@ -9,24 +10,36 @@ body {
 }
 
 h1 {
-  font-family: "Rock Salt", cursive;
+  font-family: var(--heading-font-family);
   font-size: 96px;
   color: white;
 }
 
 h2 {
+  font-family: var(--heading-font-family);
+  text-transform: uppercase;
+  font-size: 64px;
+}
+
+h3 {
   font-size: 24px;
   font-weight: normal;
+  color: white;
 }
 
 p {
+  color: black;
+  line-height: 2;
+  font-size: 16px;
+}
+
+a {
+  font-size: 20px;
+}
+
+.greeting {
   font-size: 36px;
   font-weight: bold;
-}
-
-h2,
-p {
-  color: white;
 }
 
 .btn-main {
@@ -50,4 +63,80 @@ p {
   background-size: cover;
   text-align: center;
   padding: 200px 20px;
+}
+
+.header {
+  background: var(--secondary-color);
+  padding: 40px 40px 0px;
+}
+
+.header-two {
+  background: var(--secondary-color);
+  padding: 40px 40px 0px;
+  text-align: right;
+}
+
+.btn-more-info {
+  color: var(--primary-color);
+  font-size: 20px;
+  padding: 20px 30px;
+  border: 2px solid var(--primary-color);
+  border-radius: 50px;
+}
+
+.btn-more-info:hover {
+  color: var(--primary-color);
+}
+
+.link-center {
+  display: block;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 56px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 10px;
+  }
+
+  .btn {
+    font-size: 14px;
+  }
+
+  .btn-more-info {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 320px) {
+  h1 {
+    font-size: 46px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  h3 {
+    font-size: 12px;
+  }
+
+  .btn {
+    font-size: 12px;
+  }
+
+  .btn-more-info {
+    font-size: 10px;
+  }
 }
