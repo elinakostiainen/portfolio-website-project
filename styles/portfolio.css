@@ -1,8 +1,28 @@
 h1 {
-  background: blue;
   font-family: "Rock Salt", cursive;
+  font-size: 96px;
+  color: white;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: normal;
 }
 
 p {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+h2,
+p {
   font-family: "Comfortaa", cursive;
+  color: white;
+}
+
+.hero {
+  background-image: url("/images/background.jpg");
+  background-size: cover;
+  text-align: center;
+  padding: 240px 20px;
 }
