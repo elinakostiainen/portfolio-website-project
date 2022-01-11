@@ -123,6 +123,7 @@ a {
   color: black;
   font-size: 42px;
   border-bottom: 4px solid black;
+  text-align: center;
 }
 
 .app-image {
@@ -146,33 +147,15 @@ a {
     font-size: 10px;
   }
 
+  .mt-5 h2 {
+    font-size: 24px;
+  }
+
   .btn {
     font-size: 14px;
   }
 
   .btn-more-info {
     font-size: 12px;
-  }
-}
-
-@media (max-width: 320px) {
-  h1 {
-    font-size: 46px;
-  }
-
-  h2 {
-    font-size: 22px;
-  }
-
-  h3 {
-    font-size: 12px;
-  }
-
-  .btn {
-    font-size: 12px;
-  }
-
-  .btn-more-info {
-    font-size: 10px;
   }
 }
