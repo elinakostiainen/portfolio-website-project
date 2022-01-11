@@ -65,7 +65,7 @@ a {
   padding: 200px 20px;
 }
 
-.about-hero {
+.secondary-hero {
   background: var(--primary-color);
   text-align: center;
   padding: 160px 20px;
@@ -99,10 +99,6 @@ a {
   text-align: center;
 }
 
-.about-description p {
-  padding: 26px;
-}
-
 .my-skills-section {
   text-align: center;
 }
@@ -113,6 +109,24 @@ a {
   left: 6px;
   color: #7852b2;
   font-size: 36px;
+}
+
+.my-projects {
+  text-align: center;
+}
+
+.content-container {
+  margin-top: 50px;
+}
+
+.content-container h2 {
+  color: black;
+  font-size: 42px;
+  border-bottom: 4px solid black;
+}
+
+.app-image {
+  margin-top: 80px;
 }
 
 @media (max-width: 768px) {
