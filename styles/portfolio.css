@@ -65,6 +65,12 @@ a {
   padding: 200px 20px;
 }
 
+.about-hero {
+  background: var(--primary-color);
+  text-align: center;
+  padding: 160px 20px;
+}
+
 .header {
   background: var(--secondary-color);
   padding: 40px 40px 0px;
@@ -91,6 +97,22 @@ a {
 .link-center {
   display: block;
   text-align: center;
+}
+
+.about-description p {
+  padding: 26px;
+}
+
+.my-skills-section {
+  text-align: center;
+}
+
+.fa-bootstrap {
+  position: relative;
+  top: 12px;
+  left: 6px;
+  color: #7852b2;
+  font-size: 36px;
 }
 
 @media (max-width: 768px) {
