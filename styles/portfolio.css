@@ -43,6 +43,11 @@ a:hover {
   color: var(--primary-color);
 }
 
+.logo {
+  max-width: 450px;
+  margin-bottom: 80px;
+}
+
 .greeting {
   font-size: 36px;
   font-weight: bold;
@@ -53,7 +58,6 @@ a:hover {
   background: white;
   font-size: 20px;
   padding: 20px 30px;
-  margin-top: 80px;
   border: 2px solid white;
   border-radius: 50px;
 }
@@ -68,7 +72,7 @@ a:hover {
   background-image: url("/images/background.jpg");
   background-size: cover;
   text-align: center;
-  padding: 200px 20px;
+  padding: 100px 10px;
 }
 
 .secondary-hero {
@@ -150,6 +154,11 @@ a:hover {
 
   p {
     font-size: 10px;
+  }
+
+  .logo {
+    max-width: 350px;
+    margin-bottom: 0%;
   }
 
   .mt-5 h2 {
