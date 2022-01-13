@@ -64,6 +64,11 @@ nav .active {
   color: var(--primary-color);
 }
 
+footer {
+  background: var(--secondary-color);
+  padding: 20px;
+}
+
 .navigation-container {
   background: white;
 }
@@ -97,7 +102,7 @@ nav .active {
 .secondary-hero {
   background: var(--primary-color);
   text-align: center;
-  padding: 20px 20px 150px;
+  padding: 220px 20px 150px;
 }
 
 .header {
@@ -161,6 +166,11 @@ nav .active {
   margin-top: 80px;
 }
 
+footer .social-links a {
+  font-size: 30px;
+  margin: 10px 16px;
+}
+
 @media (max-width: 820px) {
   .mt-5 h2 {
     font-size: 30px;
@@ -207,11 +217,11 @@ nav .active {
     padding: 250px 10px 140px;
   }
 
-  .mt-5 h2 {
+  h2 .mt-5 {
     font-size: 24px;
   }
 
-  .mt-4 h2 {
+  h2 .mt-4 {
     font-size: 28px;
   }
 
@@ -263,7 +273,7 @@ nav .active {
     font-size: 8px;
   }
 
-  .mt-5 h2 {
+  h2 .mt-5 {
     font-size: 16px;
   }
 
