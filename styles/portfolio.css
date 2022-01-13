@@ -136,18 +136,6 @@ footer {
   text-align: center;
 }
 
-.my-skills-section {
-  text-align: center;
-}
-
-.fa-bootstrap {
-  position: relative;
-  top: 12px;
-  left: 6px;
-  color: #7852b2;
-  font-size: 36px;
-}
-
 .content {
   text-align: center;
 }
@@ -164,6 +152,15 @@ footer {
 
 .app-image {
   margin-top: 80px;
+}
+
+.skill-icons {
+  margin: 0 auto;
+}
+
+.website-copyright {
+  text-align: center;
+  font-size: smaller;
 }
 
 footer .social-links a {
