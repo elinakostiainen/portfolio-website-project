@@ -200,6 +200,14 @@ footer .social-links a {
     margin-left: 14px;
   }
 
+  h2 .mt-5 {
+    font-size: 24px;
+  }
+
+  h2 .mt-4 {
+    font-size: 28px;
+  }
+
   .logo {
     max-width: 350px;
     margin-bottom: 0%;
@@ -212,14 +220,6 @@ footer .social-links a {
 
   .secondary-hero {
     padding: 250px 10px 140px;
-  }
-
-  h2 .mt-5 {
-    font-size: 24px;
-  }
-
-  h2 .mt-4 {
-    font-size: 28px;
   }
 
   .btn {
@@ -266,12 +266,12 @@ footer .social-links a {
     font-size: 8px;
   }
 
-  .btn-more-info {
-    font-size: 8px;
-  }
-
   h2 .mt-5 {
     font-size: 16px;
+  }
+
+  .btn-more-info {
+    font-size: 8px;
   }
 
   .hero {
