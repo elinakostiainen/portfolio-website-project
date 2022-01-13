@@ -63,6 +63,10 @@ nav .active {
   color: var(--primary-color);
 }
 
+.navigation-container {
+  background: white;
+}
+
 .big-logo {
   max-width: 120px;
 }
@@ -74,6 +78,7 @@ nav .active {
 .logo {
   max-width: 450px;
   margin-bottom: 80px;
+  margin-top: 140px;
 }
 
 .greeting {
@@ -100,13 +105,13 @@ nav .active {
   background-image: url("/images/background.jpg");
   background-size: cover;
   text-align: center;
-  padding: 100px 10px;
+  padding: 100px 10px 60px;
 }
 
 .secondary-hero {
   background: var(--primary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 280px 20px 150px;
 }
 
 .header {
@@ -202,10 +207,15 @@ nav .active {
   .logo {
     max-width: 350px;
     margin-bottom: 0%;
+    margin-top: 80px;
   }
 
   .small-logo {
     max-width: 80px;
+  }
+
+  .secondary-hero {
+    padding: 250px 10px 140px;
   }
 
   .mt-5 h2 {
@@ -268,8 +278,12 @@ nav .active {
     font-size: 16px;
   }
 
+  .hero {
+    padding: 60px 10px 60px;
+  }
+
   .secondary-hero {
-    padding: 100px 10px;
+    padding: 130px 20px 40px 20px;
   }
 
   .small-logo {
