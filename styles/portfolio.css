@@ -43,6 +43,34 @@ a:hover {
   color: var(--primary-color);
 }
 
+nav {
+  padding: 4px;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 120px;
+  margin-left: 10px;
+}
+
+nav .active {
+  color: var(--primary-color);
+}
+
+.big-logo {
+  max-width: 120px;
+}
+
+.small-logo {
+  max-width: 100px;
+}
+
 .logo {
   max-width: 450px;
   margin-bottom: 80px;
@@ -139,6 +167,12 @@ a:hover {
   margin-top: 80px;
 }
 
+@media (max-width: 820px) {
+  .mt-5 h2 {
+    font-size: 30px;
+  }
+}
+
 @media (max-width: 768px) {
   h1 {
     font-size: 56px;
@@ -156,9 +190,22 @@ a:hover {
     font-size: 10px;
   }
 
+  nav a {
+    font-size: 12px;
+  }
+
+  nav li {
+    line-height: 120px;
+    margin-left: 14px;
+  }
+
   .logo {
     max-width: 350px;
     margin-bottom: 0%;
+  }
+
+  .small-logo {
+    max-width: 80px;
   }
 
   .mt-5 h2 {
@@ -175,5 +222,69 @@ a:hover {
 
   .btn-more-info {
     font-size: 12px;
+  }
+}
+
+@media (max-width: 414px) {
+  nav li {
+    line-height: 80px;
+  }
+}
+
+@media (max-width: 280px) {
+  nav a {
+    font-size: 8px;
+  }
+
+  nav li {
+    line-height: 70px;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+
+  a {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 8px;
+  }
+
+  .btn-more-info {
+    font-size: 8px;
+  }
+
+  .mt-5 h2 {
+    font-size: 16px;
+  }
+
+  .secondary-hero {
+    padding: 100px 10px;
+  }
+
+  .small-logo {
+    max-width: 60px;
+  }
+
+  .logo {
+    max-width: 250px;
+  }
+
+  .text-center h2 {
+    font-size: 16px;
+  }
+
+  .greeting {
+    font-size: 20px;
   }
 }

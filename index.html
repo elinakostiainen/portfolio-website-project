@@ -31,10 +31,32 @@
     ></script>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/">
+          <img
+            src="images/big-logo.jpeg"
+            alt=""
+            class="big-logo d-none d-md-block"
+          />
+          <img
+            src="images/small-logo.jpeg"
+            alt=""
+            class="small-logo d-block d-md-none"
+          />
+        </a>
+        <ul>
+          <a href="/" class="active"><li>Home</li></a>
+          <a href="/about.html"> <li>About</li></a>
+          <a href="/work.html"> <li>Work</li></a>
+          <a href="/contact.html"><li>Contact</li></a>
+        </ul>
+      </nav>
+    </div>
     <div class="hero">
       <img src="images/logo.png" alt="" class="logo" />
       <div>
-        <a href="/#about" class="btn btn-main d-none d-md-inline"
+        <a href="/#about" class="btn btn-main d-none d-lg-inline"
           >Get Started</a
         >
       </div>
@@ -80,7 +102,7 @@
       </div>
       <div class="row mt-5">
         <div class="col-6">
-          <h2 class="fs-2 text-center">Icecream app</h2>
+          <h2 class="text-center">Icecream app</h2>
           <img
             class="img-fluid mt-2"
             src="images/icecream.png"
@@ -88,7 +110,7 @@
           />
         </div>
         <div class="col-6 mb-5">
-          <h2 class="fs-2 text-center">Weather app</h2>
+          <h2 class="text-center">Weather app</h2>
           <img
             class="img-fluid mt-2"
             src="images/weather.png"
@@ -97,10 +119,10 @@
         </div>
       </div>
     </div>
-    <span class="link-center">
+    <span class="link-center mb-5">
       <a href="/work.html" class="btn btn-more-info">My projects</a>
     </span>
-    <div class="header mt-5">
+    <div class="header">
       <h2>Contact</h2>
       <h2>Me</h2>
     </div>
