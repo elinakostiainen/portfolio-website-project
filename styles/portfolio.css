@@ -163,6 +163,16 @@ footer {
   font-size: smaller;
 }
 
+.grace-recognition {
+  text-align: center;
+  font-size: 20px;
+}
+
+.grace-recognition a {
+  font-size: 16px;
+  transition: all 200ms ease-in-out;
+}
+
 footer .social-links a {
   font-size: 30px;
   margin: 10px 16px;
@@ -229,11 +239,21 @@ footer .social-links a {
   .btn-more-info {
     font-size: 12px;
   }
+
+  .grace-recognition a,
+  p {
+    font-size: 12px;
+  }
 }
 
 @media (max-width: 414px) {
   nav li {
     line-height: 80px;
+  }
+
+  .grace-recognition a,
+  p {
+    font-size: 12px;
   }
 }
 
@@ -296,5 +316,10 @@ footer .social-links a {
 
   .greeting {
     font-size: 20px;
+  }
+
+  .grace-recognition a,
+  p {
+    font-size: 10px;
   }
 }
