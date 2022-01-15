@@ -69,6 +69,31 @@ footer {
   padding: 20px;
 }
 
+.content-container h2 {
+  color: black;
+  font-size: 42px;
+  text-align: center;
+}
+
+ul.workshops li {
+  font-size: 12px;
+}
+
+footer .social-links a {
+  font-size: 30px;
+  margin: 10px 16px;
+}
+
+.grace-recognition p,
+.grace-recognition a {
+  text-align: center;
+  font-size: 12px;
+}
+
+.grace-recognition a {
+  transition: all 200ms ease-in-out;
+}
+
 .navigation-container {
   background: white;
 }
@@ -144,10 +169,8 @@ footer {
   margin-top: 50px;
 }
 
-.content-container h2 {
-  color: black;
-  font-size: 42px;
-  text-align: center;
+.wix-website-link {
+  font-size: 16px;
 }
 
 .app-image {
@@ -160,22 +183,11 @@ footer {
 
 .website-copyright {
   text-align: center;
-  font-size: smaller;
+  font-size: 12px;
 }
 
-.grace-recognition {
-  text-align: center;
-  font-size: 20px;
-}
-
-.grace-recognition a {
-  font-size: 16px;
-  transition: all 200ms ease-in-out;
-}
-
-footer .social-links a {
-  font-size: 30px;
-  margin: 10px 16px;
+.grace-designed-logo {
+  margin: 0 auto;
 }
 
 @media (max-width: 820px) {
@@ -218,6 +230,10 @@ footer .social-links a {
     font-size: 28px;
   }
 
+  ul.workshops li {
+    font-size: 10px;
+  }
+
   .logo {
     max-width: 350px;
     margin-bottom: 0%;
@@ -240,8 +256,7 @@ footer .social-links a {
     font-size: 12px;
   }
 
-  .grace-recognition a,
-  p {
+  .wix-website-link {
     font-size: 12px;
   }
 }
@@ -249,11 +264,6 @@ footer .social-links a {
 @media (max-width: 414px) {
   nav li {
     line-height: 80px;
-  }
-
-  .grace-recognition a,
-  p {
-    font-size: 12px;
   }
 }
 
@@ -290,6 +300,23 @@ footer .social-links a {
     font-size: 16px;
   }
 
+  .mt-4 h2 {
+    font-size: 22px;
+  }
+
+  ul.workshops li {
+    font-size: 10px;
+  }
+
+  .col-6 h2 {
+    font-size: 16px;
+  }
+
+  .grace-recognition p,
+  .grace-recognition a {
+    font-size: 10px;
+  }
+
   .btn-more-info {
     font-size: 8px;
   }
@@ -310,16 +337,15 @@ footer .social-links a {
     max-width: 250px;
   }
 
-  .text-center h2 {
-    font-size: 16px;
-  }
-
   .greeting {
     font-size: 20px;
   }
 
-  .grace-recognition a,
-  p {
+  .wix-website-link {
+    font-size: 10px;
+  }
+
+  .website-copyright {
     font-size: 10px;
   }
 }
